@@ -33,8 +33,6 @@ PHPのプロジェクトの開発プロセスや技術などの情報を記載�
     
 ### 利用技術
 
-#### 一覧
-
 主に利用するフレームワークやミドルウェアの情報を記載します。
 
 * ウェブアプリケーションフレームワーク
@@ -57,3 +55,12 @@ PHPのプロジェクトの開発プロセスや技術などの情報を記載�
         * [AWS](https://aws.amazon.com/)
         * [さくらのクラウド](https://cloud.sakura.ad.jp/)
         * （その他必要に応じて選定）
+
+### デプロイ
+
+PHPプロジェクトのデプロイ方法について記載します
+
+* [PHPloy](https://github.com/banago/PHPloy)
+* 旧環境
+    * [Jenkins](https://jenkins.io/)
+    * [Rocketeer](http://rocketeer.autopergamene.eu/)
