@@ -35,3 +35,5 @@
 * 運用・保守
     * システム死活監視 @TODO
 
+
+![イーツー・インフォロゴ](https://raw.githubusercontent.com/e2info/e2info-warehouse/master/images/logo/logo100x100_transparent.png)
