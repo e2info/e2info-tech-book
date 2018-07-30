@@ -33,7 +33,7 @@
     * メインで利用している開発言語はPHPとJavaです。それぞれの言語により開発プロセスやデプロイ方法などが異なります。
         * PHPのプロジェクト
             * [PHP](development/PHP.md)
-            * [PHP/コーディングの方針](development/CodingRule.md) 
+            * [PHP/実装の方針](development/CodingRule.md) 
         * Javaのプロジェクト
             * @TODO
 * 運用・保守
