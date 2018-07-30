@@ -32,6 +32,7 @@
     * [システム開発の知識](development/Knowledge.md) - 必ず知っておく必要がある知識について
     * メインで利用している開発言語はPHPとJavaです。それぞれの言語により開発プロセスやデプロイ方法などが異なります。
         * [PHP](development/PHP.md)
+            * [PHP/コーディングの方針](development/CodingRule.md) 
         * Java @TODO
 * 運用・保守
     * システム死活監視 @TODO
