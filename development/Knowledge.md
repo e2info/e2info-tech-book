@@ -31,7 +31,7 @@
         * 依存関係逆転の原則(DIP)
 * 名前空間
 * 開発手法
-    * xdd(DDD,/TDD/others)
+    * xdd(DDD/TDD/others)
     * Agile(XP/Scrum/others)
     * ウォーターフォール
 * プログラム開発の法則
