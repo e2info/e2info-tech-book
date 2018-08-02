@@ -34,7 +34,7 @@ composer.jsonのrequire-devに以下の依存関係を記入した後、composer
 
 vendor/bin配下にphpcs, phpcbfがインストールされます。
 
-![laravel/vendor](https://raw.githubusercontent.com/e2info/e2info-tech-book/images/phpcs_phpcbf.png)
+![laravel/vendor](https://raw.githubusercontent.com/e2info/e2info-tech-book/master/images/phpcs_phpcbf.png)
 
 phpcs設定ファイルを任意の場所に設置します。
 
