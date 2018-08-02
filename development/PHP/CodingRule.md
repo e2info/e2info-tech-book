@@ -53,3 +53,7 @@ $this->temp_file[$cnt] = '';
 ~~~
 
 
+---
+    
+![イーツー・インフォロゴ](https://raw.githubusercontent.com/e2info/e2info-warehouse/master/images/logo/logo100x100_transparent.png)
+

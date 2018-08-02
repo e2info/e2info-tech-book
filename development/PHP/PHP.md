@@ -64,3 +64,8 @@ PHPプロジェクトのデプロイ方法について記載します
 * 旧環境
     * [Jenkins](https://jenkins.io/)
     * [Rocketeer](http://rocketeer.autopergamene.eu/)
+    
+---
+
+![イーツー・インフォロゴ](https://raw.githubusercontent.com/e2info/e2info-warehouse/master/images/logo/logo100x100_transparent.png)
+    

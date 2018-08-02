@@ -55,3 +55,8 @@
 #### Laravelについて
 
 * [公式ドキュメント](https://laravel.com/docs/5.6)のArchitecture Conceptsについて理解しておくこと
+
+---
+    
+![イーツー・インフォロゴ](https://raw.githubusercontent.com/e2info/e2info-warehouse/master/images/logo/logo100x100_transparent.png)
+
