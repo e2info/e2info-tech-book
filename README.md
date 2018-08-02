@@ -34,7 +34,7 @@
         * PHPのプロジェクト
             * [PHP](development/PHP/PHP.md)
             * [PHP/実装の方針](development/PHP/CodingRule.md) 
-            * [PHP/PHP_CodeSniffer(PHPCS)](development/PHP/PHPCS) 
+            * [PHP/PHP_CodeSniffer(PHPCS)](development/PHP/PHPCS.md) 
         * Javaのプロジェクト
             * @TODO
 * 運用・保守
