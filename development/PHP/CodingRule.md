@@ -48,17 +48,15 @@
 * 「どちらでもよい」場合、より良い方を選択します。より良いの基準は状況により異なりますが、大抵の場合、シンプルな方です。
 * 「将来こういうことがおきたときのために、こうしておいたほうが良い。このほうが汎用的。」という判断はしない。 多くの場合、それは必要とならず、ただ複雑さが増すだけになります。(YAGNIの法則)
 
-### ベースとする規約
+### ベースとする規約(MUST)
 
-* PSR-1/2に準拠する (MUST)
+* PSR-1/2に準拠する
     * 変数名はlowerCamelCaseとする
     * 補足：Laravel以外のフレームワークを利用する必要がある場合、当資料の基準より各フレームワークの基準を優先します。
     
 ### 注意すること
 
-#### スカラー型宣言
-
-* 「しなければならない（ MUST ）」
+#### スカラー型宣言(MUST)
 
 PHP7より、スカラー型宣言が利用できるようになりました。
 http://php.net/manual/ja/migration70.new-features.php
@@ -70,9 +68,7 @@ http://php.net/manual/ja/migration70.new-features.php
 declare(strict_types=1);
 ~~~
 
-#### 型の宣言
-
-* 「しなければならない（ MUST ）」
+#### 型の宣言(MUST)
 
 PHP7より、いままで可能であった引数の型宣言にくわえて戻り値の型宣言もできるようになりました。
 http://php.net/manual/ja/migration70.new-features.php
@@ -88,10 +84,7 @@ function arraysSum(array ...$arrays): array
 
 ※ [PHPマニュアル／新機能](http://php.net/manual/ja/migration70.new-features.php)より引用
 
-
-#### 不要なコメントは削除する。
-
-* 「しなければならない（ MUST ）」
+#### 不要なコメントは削除する(MUST)
 
 実装途中などの理由により残す必要がある場合、必ずTODOコメントを記載してまとめて検索できるようにします。
 
