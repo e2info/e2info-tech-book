@@ -7,7 +7,7 @@
 ## 概要
 
 * システムを開発する上での姿勢、考え方を記載します
-* コーディングについては[PHP/コーディングの方針](development/PHP/CodingRule.md) を参照
+* コーディングについては[PHP/コーディングの方針](/development/PHP/CodingRule.md) を参照
 
 ## なんのために策定するか
 
