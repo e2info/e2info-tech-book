@@ -6,7 +6,8 @@
 
 ## 概要
 
-コーディングを行う上での指針、ルール、留意する点を記載します
+* コーディングを行う上での指針、ルール、留意する点を記載します
+* 開発スタイル／プロジェクトの進め方については[PHP/システム開発の考え方](development/PHP/DevelopmentRule.md)を参照
 
 ## なんのために策定するか
 
@@ -48,7 +49,7 @@
 * 「どちらでもよい」場合、より良い方を選択します。より良いの基準は状況により異なりますが、大抵の場合、シンプルな方です。
 * 「将来こういうことがおきたときのために、こうしておいたほうが良い。このほうが汎用的。」という判断はしない。 多くの場合、それは必要とならず、ただ複雑さが増すだけになります。(YAGNIの法則)
 
-### ベースとする規約(MUST)
+### ベースとする規約 (MUST)
 
 * PSR-1/2に準拠する
     * 変数名はlowerCamelCaseとする
@@ -56,7 +57,7 @@
     
 ### 注意すること
 
-#### スカラー型宣言(MUST)
+#### スカラー型宣言（RECOMMENDED）
 
 PHP7より、スカラー型宣言が利用できるようになりました。
 http://php.net/manual/ja/migration70.new-features.php
@@ -68,7 +69,7 @@ http://php.net/manual/ja/migration70.new-features.php
 declare(strict_types=1);
 ~~~
 
-#### 型の宣言(MUST)
+#### 型の宣言（RECOMMENDED）
 
 PHP7より、いままで可能であった引数の型宣言にくわえて戻り値の型宣言もできるようになりました。
 http://php.net/manual/ja/migration70.new-features.php
