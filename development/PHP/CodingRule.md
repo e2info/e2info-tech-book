@@ -13,6 +13,7 @@
 
 * 会社としてコード基準を統一することでコード品質をあげる
 * 迷ったときの判断材料とする
+* ソースコードレビューの判断材料とする
 
 ## 前提
 
@@ -98,6 +99,68 @@ if ($this->temp_file[$cnt] != '') {
 $this->temp_file[$cnt] = '';
 // $this->save_file[$cnt] = '';
 ~~~
+
+#### ネストは浅く(RECOMMENDED)
+
+殆どの場合、ソースコードのネストは浅いほうが良いです
+
+##### 例1 不要なelseは削除する
+
+Before
+~~~
+if(isBlank($name)){
+    return null;
+}else{
+    $upperName = upper_case($name);
+    // ...
+}
+~~~
+
+After
+~~~
+if(isBlank($name)){
+    return null;
+}
+$upperName = upper_case($name);
+~~~
+
+##### 例2 ガード節の導入
+
+Before
+~~~
+function isAdult($age){
+    if(!empty($age)){
+        if(!is_numeric($age)){
+            if($age > 0 && $age < 100){
+                return ($age > 19);
+            }
+        }
+    }
+
+    return false;
+}
+~~~
+
+After
+~~~
+function isAdult($age){
+    if(empty($age)){
+        return false;
+    }
+
+    if(!is_numeric($age)){
+        return false;
+    }
+
+    if($age < 1 || $age > 100 || ){
+        return false;
+    }
+
+    return ($age > 19);
+}
+~~~
+
+
 
 
 ---
